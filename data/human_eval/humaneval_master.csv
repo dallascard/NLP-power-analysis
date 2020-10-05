@@ -1,0 +1,136 @@
+Link,Probably not relevant to us,Task,Eval number,New methods,Baselines,Metrics,Specific metrics used,Number of examples per comparison,Total number of annotators,Annotations per example,Response type,ResponseCategory,Claimed significant,Reports standard errors,Bold text in results table,Test used,HasTest
+https://www.aclweb.org/anthology/D19-1010.pdf,0,dialogue generation,1,1,3,3,"efficiency, quality, success",100,3,3,"Ordinal (win, lose, draw)",h,yes,no,no,unspecified,0
+https://www.aclweb.org/anthology/D19-1012.pdf,0,response generation,1,1,2,3,"empathy, relevance, fluency",100,,3,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1012.pdf,0,response generation,2,1,2,1,win/loss/tie (head-to-head),100,,3,"Ordinal (win, lose, draw)",h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1013.pdf,0,dialogue generation,1,2,3,3,"correctness, fluency, humanlikeness",unspecified,,,Likert (1-5),l,no,no,yes,unspecified,0
+https://www.aclweb.org/anthology/D19-1014.pdf,0,dialogue generation,1,2,1,4,"fluency, relevance, comprehension, diveristy",100,6,2,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1014.pdf,0,dialogue generation,2,2,1,4,"fluency, relevance, comprehension, diveristy",30,3,2,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1014.pdf,0,dialogue generation,3,2,1,1,relevance,100,1,1,best of 3 models,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1018.pdf,0,generation,1,3,2,3,"relevance, informativeness, diversity",100,,3,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1052.pdf,0,generation,1,4,4,2,"fluency, semantics",223,35,1,Likert (1-7),l,yes,no,no,Mann Whitney,1
+https://www.aclweb.org/anthology/D19-1054.pdf,0,generation,1,3,1,3,fluency,100,,1,yes / no,o,yes,no,yes,,1
+https://www.aclweb.org/anthology/D19-1055.pdf,0,generation,1,2,1,3,"grammaticality, correctness, content richness",30,3,3,Likert (1-5),l,yes,no,yes,randomization test,1
+https://www.aclweb.org/anthology/D19-1055.pdf,0,generation,2,2,1,3,"grammaticality, correctness, content richness",30,3,3,Likert (1-5),l,yes,no,yes,randomization test,1
+https://www.aclweb.org/anthology/D19-1065.pdf,0,generation,1,1,4,6,very specific to this task,120,,3,"left, right, can't tell",h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1081.pdf,0,translation,1,1,1,1,preference,700,,,"Ordinal (win, lose, draw)",h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1086.pdf,0,translation,1,1,1,3,"quality, over-translations, under-translations",100,3,3,"Likert (1-5), proportion of words over- and under- translated ()",l,no,yes,yes,,0
+https://www.aclweb.org/anthology/D19-1115.pdf,0,steganography,1,3,1,1,next sentence continuation,80,,1,binary,h,yes,yes,no,,1
+https://www.aclweb.org/anthology/D19-1117.pdf,0,summarization,1,1,2,2,"relevance, readability",100,3,3,Likert (1-5),l,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1124.pdf,0,generation,1,1,2,1,coherence and contextual (seems like one that measures both),700,7,,Likert (1-3),l,yes,no,no,Friedman test,1
+https://www.aclweb.org/anthology/D19-1132.pdf,0,dialog generation,1,2,2,1,,100,,,"Ordinal (win, lose, draw)",h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1152.pdf,0,dialog generation,1,3,1,1,top-1 accuracy on image,50,,,most relevant,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1152.pdf,0,dialog generation,2,3,1,3,"consistency, fluency, detail",50,,,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1175.pdf,0,speaker identification,1,1,0,1,choose more characteristic tweet,300,,,binary choice,h,yes,yes,yes,binary test,1
+https://www.aclweb.org/anthology/D19-1187.pdf,0,dialog generation,1,1,7,2,"appropriateness, informativeness",200,,5,"Ordinal (win, lose, draw)",h,yes,no,no,sign test,1
+https://www.aclweb.org/anthology/D19-1188.pdf,0,dialog generation,1,1,5,1,"1 metric considering four factors: context relevance, logical consistency, fluency and informativeness",500,3,3,"Ordinal (win, lose, draw)",h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1189.pdf,0,dialog generation,1,1,1,1,consistency,100,10,10,Likert (1-3),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1190.pdf,0,dialog generation,1,1,5,2,"(also report the harmonic mean of the two)appropriateness, style intensity",500,5,5,"Likert (0, 0.5, 1)",l,yes,no,yes,,0
+https://www.aclweb.org/anthology/D19-1191.pdf,0,dialog utterance restoration,1,1,3,2,"quality, fluency",300,5,5,Likert(1-4; 1-3),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1192.pdf,0,dialog generation,1,2,2,1,quality,,3,3,Likert (-1-+3),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1192.pdf,0,dialog generation,2,2,2,1,quality,,3,3,"Ordinal (win, lose, draw)",h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1194.pdf,0,dialog generation,1,1,4,2,"fluency, information",,15,,"Ordinal (win, lose, draw)",h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1195.pdf,0,dialog generation,1,1,6,3,"informativeness, relevance, fluency",300,5,5,Likert (1-5),l,yes,yes,yes,sign test,1
+https://www.aclweb.org/anthology/D19-1197.pdf,0,dialog generation,1,1,2,3,"fluency, relevance, richness",500,3,3,"Ordinal (win, lose, draw)",h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1198.pdf,0,dialog generation,1,1,5,1,quality,300,3,,Likert (1-3),l,no,yes,yes,,0
+https://www.aclweb.org/anthology/D19-1200.pdf,0,dialog generation,1,1,4,1,quality,300,,3,Likert (1-4),l,yes,no,yes,sign test,1
+https://www.aclweb.org/anthology/D19-1201.pdf,0,dialog generation,1,1,5,3,"Read., Info., P-score refer to readability,informativeness, personalization scores",200,3,3,"Likert (1-3), Binary",l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1202.pdf,0,dialog generation,1,1,3,1,appropriateness,150,,5,"Ordinal (win, lose, draw)",h,yes,yes,yes,,1
+https://www.aclweb.org/anthology/D19-1203.pdf,0,dialog generation,1,1,1,3,"  fluency,  con-sistency, and engagingness (scored between 1 and5) (",20,,,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1204.pdf,0,dialog generation,1,1,2,2,logical correctness of query and grammatical correctness,100,3,3,Likert (1-5),l,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1225.pdf,0,font matching,1,1,1,2,realistic; style-matching,1560,,5,head-to-head (not sure about draw),h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1247.pdf,0,question generation over knowledge bases,1,1,2,1,naturalness,100,,2,Likert (0-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1253.pdf,0,question generation,1,1,1,1,"which is better (combining answerability, making sense, and overall quality)",300,,1,head-to-head (including draw),h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1255.pdf,0,answer generation,1,1,4,2,"gramaticality, correctness",100,,,Likert (1-5),l,yes,no,yes,unspecified ,1
+https://www.aclweb.org/anthology/D19-1270.pdf,0,common sense inference,1,1,3,1,diversity,100,,5,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1270.pdf,0,common sense inference,2,1,3,2,"fluency, coherence",100,,,yes or no (e.g. coherent or not),o,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1272.pdf,0,semantic text exchange,1,2,3,3,"relatedness, fluency, sentiment",54,8,8,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1297.pdf,0,summarization,1,1,2,2,multi-label correct or incorrect,1000,2,2,multi-label correct or not,o,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1299.pdf,0,generation,1,1,1,1,multi-label correct or incorrect,50,2,2,multi-label correct or not,o,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1300.pdf,0,extractive summarizatoin,1,1,1,3,"quality (overall), coverage, non-redundancy",50,3,3,ranking of all systems,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1302.pdf,0,summarization,1,3,1,3,"informative, concise, fluency",50,3,3,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1303.pdf,0,generation,1,6,1,2,"sensationalism, fluency",50,10,10,binary,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1304.pdf,0,summarization,1,1,2,2,"abstraction, quality",20,20,20,choose best ,h,yes,no,no,,0
+https://www.aclweb.org/anthology/D19-1306.pdf,0,style transfer,1,1,4,3,"content, grammar, attribute",200,12,,Likert (1-5),l,no,yes,yes,,1
+https://www.aclweb.org/anthology/D19-1307.pdf,0,summarization,1,1,2,1,overall quality (considering informativeness and conciseness--but it's one measure),30,5,5,Likert (1-3),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1308.pdf,0,generation,1,1,3,2,"diversity, accuracy",100,,10,"Ordinal (win, lose, draw)",h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1309.pdf,0,summarization,1,1,1,3,"plausbility, equivalence, diversity",200,10,2,binary,h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1310.pdf,0,generation from table,1,1,4,2,"supporting facts, contradictory facts",120,3,,count,o,yes,no,no,ANOVA,1
+https://www.aclweb.org/anthology/D19-1310.pdf,0,generation from table,2,1,4,3,"grammaticality, coherence, conciseness",120,3,,binary (choose which is better),h,yes,no,no,,0
+https://www.aclweb.org/anthology/D19-1312.pdf,0,generate referring expressions,1,1,4,1,"best (consider readability, grammaticality, fluency)",100,20,4,binary,h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1313.pdf,0,paraphrase,1,1,3,2,"fluency, consistency",100,2,2,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1314.pdf,0,asbtract-meaning-to-text-generation,1,1,1,2,"meaning similarity, readability",100,,5,Likert (0-100),l,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1315.pdf,0,consistency of sentence generation and document classification,1,1,2,4,"consistency, adequacy, fluency, occupation adequacy",250,10,,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1319.pdf,0,review generation,1,2,1,2,"helpfulness, confusion matrix of which reviews were machine generated",,36,,Likert (1-5),l,yes,no,no,chi-squared,1
+https://www.aclweb.org/anthology/D19-1320.pdf,0,evaluation metrics for summarization,1,5,3,2,"readability, relevance",50,3,3, Looks like Likert (1-10),l,yes,no,yes,two-tailed t-test,1
+https://www.aclweb.org/anthology/D19-1322.pdf,0,style transfer,1,1,1,1,"content, fluency, style",200,,,"Ordinal (win, lose, draw)",h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1322.pdf,0,style transfer,2,1,1,1,"content, fluency, style",200,,,"Ordinal (win, lose, draw)",h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1323.pdf,0,abs summarization,1,2,3,3,"informativeness, grammaticality, coherence",30,3,3,Likert (1-5),l,yes,no,yes,approximate randomization test,1
+https://www.aclweb.org/anthology/D19-1324.pdf,0,ext summarization,1,1,3,1,grammaticality,500,,,Ranking,o,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1325.pdf,0,style transfer,1,1,3,3,"style control, content preservation and fluency",100,,3,head-to-head (including draw),h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1326.pdf,0,question generation,1,1,1,3,"fluency, completeness, answerability",500,,3,head-to-head or skip if equal,h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1336.pdf,0,pun generation,1,1,4,3,"ambiguity, fluency, overall",100,3,3,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1337.pdf,0,question generation,1,1,1,3,"matching, fluency, relevance",100,3,3,Likert (0-2),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1366.pdf,0,style transfer,1,1,4,3,"attribute compatibility, content preservation, and fluency",20,8,,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1388.pdf,0,summarization,1,1,2,2,"fluency, consistency",100,3,,Likert (1-3),l,yes,no,yes,paired student t-test,1
+https://www.aclweb.org/anthology/D19-1389.pdf,0,summarization,1,1,2,4,"coherence, conciseness, agreement, overall quality",100,,3,head2head,h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1390.pdf,0,summarization,1,2,2,2,"fluency, faithfulness",100,10,3,0-1,l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1407.pdf,0,generation,1,1,1,2,"fluency, similarity",1000,,1,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1420.pdf,0,rationales,1,1,1,1,accuracy,,,,binary,h,yes,no,yes,t-test,1
+https://www.aclweb.org/anthology/D19-1428.pdf,0,graph construction,1,1,1,1,preference,300,,3,head2head,l,yes,no,no,two-tailed binomial test,1
+https://www.aclweb.org/anthology/D19-1436.pdf,0,generation,1,1,4,2,"grammaticality, relevance",200,,5,head2head (w/l/t),h,yes,no,no,sign test,1
+https://www.aclweb.org/anthology/D19-1459.pdf,0,dialogue generation,1,0,3,1,appropriateness,500,,3,likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1459.pdf,0,dialogue generation,2,0,3,1,rank (relevance),500,,3,rank,o,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1482.pdf,0,generative hate speech intervention,1,0,3,2,"effectiveness, diversity",450,,,rank (allowing ties),o,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1499.pdf,0,style transfer,1,1,1,3,"content, fluency, style",50,,,Likert (0-2),l,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1501.pdf,0,product description generation,1,1,1,3,"fluency, informativity, fidelity",,,,Likert (1-3),l,yes,no,yes,paired t-test,1
+https://www.aclweb.org/anthology/D19-1509.pdf,0,counterfactual story rewriting,1,0,14,3,three very specific questions about the story genertion,100,,2,Likert (1-3),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1511.pdf,0,question generation,1,3,4,3,"appropriateness, semantic coherence, willingness to answer",500,3,3,binary,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1512.pdf,0,comment generation,1,1,6,1,table with criteria for each scale 1-5,500,3,3,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1547.pdf,0,text to sql,1,3,3,3,"accuracy for canonical form, execution accuracy, number of questions",100,3,3,binary + count,h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1553.pdf,0,sentiment modification,1,1,5,1,"sentiment, content, overall performance",200,3,3,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1613.pdf,0,recipe generation,1,3,2,1,pairwise preference (coherence/usefulness - collected two separte numbers and combined),310,,,pairwise preference,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1621.pdf,0,poetry generation (English),1,2,1,1,accuracy,150,,,binary,h,yes,no,no,McNemar,1
+https://www.aclweb.org/anthology/D19-1623.pdf,0,abstractive summarization,1,2,1,2,"relevance, fluency",500,,,"Ordinal (win, lose, draw)",h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1637.pdf,0,generating poems,1,1,3,4,"fluency, semantic coherence, semantic preservability, poeticness",,30,,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1637.pdf,0,generating poems,1,1,3,4,"fluency, semantic coherence, semantic preservability, poeticness",,30,,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1638.pdf,0,generating instructions,1,,,,,30,4,4,head2head,h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1651.pdf,0,information extraction,1,1,1,1,which is better,100,,4,head2head,h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1674.pdf,0,generating anagrams,1,1,1,1,undefined (basically naturalness),100,3,3,Likert (1-5),l,no,yes,no,,0
+https://www.aclweb.org/anthology/D19-1046.pdf,1,,,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1083.pdf,1,,,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1213.pdf,1,video captioning,,,,,,150,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1632.pdf,1,,No human evals,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1002.pdf,1,,,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1051.pdf,1,summarization,1,0,13,4,"relevance, consistency, fluency, coherence",100,unspecified,5,Likert,l,no,,no,correlation,1
+https://www.aclweb.org/anthology/D19-1056.pdf,1,translation,1,1,0,2,"quality, naturalness",226,2,2,correct or incorrect,o,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1060.pdf,1,discourse,1,0,2,3,"sentence position, binary sentence ordering, discourse coherence",50,1,1,,,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1062.pdf,1,,,,,,,200,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1084.pdf,1,alignment,1,,,1,P/R/F1,,unspecified,unspecified,alignment,o,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1085.pdf,1,translation,1,3,1,1,number of errors,500,unspecified,unspecified,counting errors,o,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1116.pdf,1,summarization,1,0,7,6,"relevance, informativeness, verbosity, unnecessary content, perfect surrogate, continue reading",60,,3,Likert (1-7),l,,no,yes,,0
+https://www.aclweb.org/anthology/D19-1156.pdf,1,image captioning,1,2,6,3,"relevance, extraness, omission","11,985",,,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1156.pdf,1,image captioning,2,2,6,3,"relevance, extraness, omission",2500,,,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1156.pdf,1,image captioning,3,2,6,3,"relevance, extraness, omission",4000,,,choice,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1172.pdf,1,QA,1,,,2,"entity error, grammar error",100,,,error type,o,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1180.pdf,1,-,,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1206.pdf,1,task-oriented dialog,1,0,6,5,"fluency, coherence, goal adherence, diversity, overall",50,10,1,Likert (1-5),l,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1218.pdf,1,task-oriented dialog,,,,,,105,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1220.pdf,1,image captioning,1,1,6,1,relatedness,5822,unspecified ,3,Likert (1-4),l,yes,no,yes,"unspecified for p-value, Kendall tau, Spearman rho for evaluation",1
+https://www.aclweb.org/anthology/D19-1244.pdf,1,evidence selection for QA,1,8,2,2,do human select agent's answer; is it correct,100,unspecified ,5,essentially correct or incorrect,o,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1273.pdf,1,event extraction,,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1387.pdf,1,summarization,,,,,,,,,,,,,,,
+https://www.aclweb.org/anthology/D19-1390.pdf,1,summarization,2,2,2,1,Turing test,100,10,3,binary choice,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1409.pdf,1,generation,1,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1412.pdf,1,,no human eval,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1454.pdf,1,common sense,,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1523.pdf,1,text classification,1,9,0,1,see description,100,367 + 121,3,choice + confidence,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1523.pdf,1,text classification,2,9,0,1,see description,100,367 + 121,3,choice + confidence,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1523.pdf,1,text classification,3,9,0,1,see description,100,367 + 121,3,choice + confidence,h,no,no,yes,,0
+https://www.aclweb.org/anthology/D19-1579.pdf,1,gender inference,1,1,0,1,identify intruder,,,,choose 1 of 5,h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1579.pdf,1,gender inference,1,1,0,1,label matches,,,,choose match,h,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1611.pdf,1,,No human evals,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1617.pdf,1,poetry generation (Finnish),1,1,1,7,1) How typical is the text as a poem (2) How understandable is it (3) How good is the language (4) Does the text evoke mental images (5) Does the text evoke emotions (6) How much do you like the text (7) Is the text a poem,20,20,,Likert (1-5); binary for (7),l,no,no,no,,0
+https://www.aclweb.org/anthology/D19-1636.pdf,1,machine translation,1,1,0,1,fluency,unspecified,5,5,Likert (1-5),l,,,no,,0
+https://www.aclweb.org/anthology/D19-1668.pdf,1,restoring text,No human evals,,,,,,,,,,,,,,0
+https://www.aclweb.org/anthology/D19-1087.pdf,1,MT,1,,0,4,"wrong, missing, wrong terminology, missing terminology",560,2,2,binary,h,no,binary,no,,0
+https://www.aclweb.org/anthology/D19-1087.pdf,1,MT,2,,0,4,"wrong, missing, wrong terminology, missing terminology",15000,2,2,binary,h,no,binary,no,,0

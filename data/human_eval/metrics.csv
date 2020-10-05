@@ -1,0 +1,50 @@
+Metric,Metric.category,BigCategory
+Style intensity,style,style
+Fluency,fluency,style
+Sentiment compatibility,sentiment,content
+Grammaticality,grammar,style
+Sentiment,sentiment,content
+Readability,fluency,style
+Appropriateness,relevance,content
+Relevance,relevance,content
+Informativeness,informative,content
+Matching,relevance,content
+Sentence Coherence and Contextual Topic,coherence,content
+Fluidity,fluency,style
+Content,coherence,content
+Coherence,coherence,content
+Attribute,overall,style
+Overall,overall,style
+Conciseness,conciseness,style
+Meaning similarity,meaning,content
+Informativity,informative,content
+Consistency,coherence,content
+Informativeness and Conciseness,overall,style
+Adequacy,overall,style
+Occupation Adequacy,overall,content
+Quality,overall,style
+Detail,informative,content
+Overall Rubric,overall,style
+Ambiguity,informative,content
+Content preservation,informative,content
+Grammar,grammar,style
+Helpfulness,informative,content
+quality,content,content
+informativeness,content,content
+readability,style,style
+Semantic,NA,content
+Style,NA,style
+Humanlikeness,NA,style
+Correctness,NA,content
+Empathy,NA,content
+Syntactic,NA,style
+Relatedness,NA,content
+Correct,NA,content
+Diversity,NA,style
+Naturalness,NA,style
+Comprehension,NA,content
+Content richness,NA,content
+Gramaticality,NA,style
+Rating,NA,style
+Fidelity,NA,content
+
