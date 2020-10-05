@@ -68,6 +68,11 @@ There are several components to the human evaluation materals:
 - Finally, the meta-analysis of EMNLP 2019 results is provided in `analyses/human_eval/meta_analysis_submit.R`, with code for Figures 5 and 6 provided in the `code_for_figures` directory.
 
 
+### Code for Figures
+
+- code to reproduce figures from the paper which are based on simulations and/or public data are provided as notebooks in `code_for_figures`.
+
+
 ### References
 
 TO BE ADDED
