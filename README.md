@@ -34,7 +34,7 @@ ipython notebook
 
 ### Comparing Models on Accuracy
 
-- Starter code for running power analyses for comparing classifiers (in terms of accuracy, using hypothesized values for <img src="https://render.githubusercontent.com/render/math?math=\Delta_{acc}"> and $P_a$) is provided in `notebooks_for_power_calculations/accuracy.ipynb` (also available as an [online interactive notebook](https://colab.research.google.com/drive/1anaS-9ElouZhUgCAYQt8jy8qBiaXnnK1?usp=sharing)).
+- Starter code for running power analyses for comparing classifiers (in terms of accuracy, using hypothesized values for <img src="https://render.githubusercontent.com/render/math?math=\Delta_{acc}"> and <img src="https://render.githubusercontent.com/render/math?math=P_a">) is provided in `notebooks_for_power_calculations/accuracy.ipynb` (also available as an [online interactive notebook](https://colab.research.google.com/drive/1anaS-9ElouZhUgCAYQt8jy8qBiaXnnK1?usp=sharing)).
 - Code to reproduce the related figrues (3, 7, and 8) is provided in `code_for_figures`.
 
 
@@ -53,7 +53,7 @@ ipython notebook
 
 ### Machine Translation
 
-- Code for computing power on BLUE scores (using hypothesized values for $b_0$ and $\Delta_B$ is provided in `notebooks_for_power_calculations/BLEU.ipynb` (also available as an [online interactive notebook](https://colab.research.google.com/drive/13S--riSmpGXB3Vm52yFKKZrx7z73suc8?usp=sharing)).
+- Code for computing power on BLUE scores (using hypothesized values for <img src="https://render.githubusercontent.com/render/math?math=b_0"> and <img src="https://render.githubusercontent.com/render/math?math=\Delta_B"> is provided in `notebooks_for_power_calculations/BLEU.ipynb` (also available as an [online interactive notebook](https://colab.research.google.com/drive/13S--riSmpGXB3Vm52yFKKZrx7z73suc8?usp=sharing)).
 - Code for estimating the Laplace-Delta mixture parameters from data is provided in `code_for_figures/Figure 15 (and 16).ipynb`
 
 
