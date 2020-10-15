@@ -1,7 +1,7 @@
 # Power analysis for NLP
 
 
-This repo exists to accompany the paper **With Little Power Comes Great Responsibility**, by [Dallas Card](https://web.stanford.edu/~dcard/), [Peter Henderson](https://www.peterhenderson.co/), [Urvashi Khandelwal](https://nlp.stanford.edu/~urvashik/), [Robin Jia](https://robinjia.github.io/), [Kyle Mahowald](https://mahowak.github.io/), and [Dan Jurafsky](https://web.stanford.edu/~jurafsky/), to be published at EMNLP 2020.
+This repo exists to accompany the paper [**With Little Power Comes Great Responsibility**](https://arxiv.org/abs/2010.06595), by [Dallas Card](https://web.stanford.edu/~dcard/), [Peter Henderson](https://www.peterhenderson.co/), [Urvashi Khandelwal](https://nlp.stanford.edu/~urvashik/), [Robin Jia](https://robinjia.github.io/), [Kyle Mahowald](https://mahowak.github.io/), and [Dan Jurafsky](https://web.stanford.edu/~jurafsky/), to be published at EMNLP 2020.
 
 Here you can find the raw annotations described in the paper, code to reproduce most of the figures, and notebooks which can be adapted for running your own power analyses, including online interactive notebooks.
 
@@ -73,7 +73,15 @@ There are several components to the human evaluation materials:
 - Code to reproduce figures from the paper which are based on simulations and/or public data are provided as notebooks in `code_for_figures`.
 
 
-### References
+### Reference
 
-TO BE ADDED
+```
+@inproceedings{card2020power,
+  title = {With Little Power Comes Great Responsibility},
+  author = {Dallas Card and Peter Henderson and Urvashi Khandelwal and Robin Jia and Kyle Mahowald and Dan Jurafsky},
+  booktitle = {Proceedings of EMNLP},
+  year = 2020,
+  url = {https://arxiv.org/abs/2010.06595},
+}
+
 
